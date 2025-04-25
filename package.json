@@ -1,0 +1,25 @@
+{
+  "name": "gamepredict",
+  "version": "1.0.0",
+  "description": "backend",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aadhavm10/GamePredict.git"
+  },
+  "author": "adi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aadhavm10/GamePredict/issues"
+  },
+  "homepage": "https://github.com/Aadhavm10/GamePredict#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.13.3",
+    "nodemon": "^3.1.10"
+  }
+}
