@@ -4,7 +4,18 @@ const db = require('./models/db');
 
 //const mongoose = require('mongoose');
 
+const User = require('./models/user');
 const app = express();
+
+app.post('/create-user', async (req, res) => {
+  const user = await User({
+    teamname: 'Mavs',
+    playoff: 'False',
+
+  });
+  res.json(user);
+  await user.save();
+})
 
 console.log("MONGO_URI:", process.env.MONGO_URI);
 

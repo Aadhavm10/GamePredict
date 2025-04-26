@@ -4,7 +4,8 @@ const userSchema = new mongoose.Schema({
     teamname: 
     {
         type: String, 
-        required: true
+        required: true,
+        unique: true
     },
     playoff: {
         type: String, 
