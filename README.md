@@ -1,31 +1,62 @@
-# Game Predict
+# GamePredict 🏀
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)  
+![Built with FastAPI](https://img.shields.io/badge/Backend-FastAPI-blue?style=for-the-badge&logo=fastapi)  
+![Frontend React](https://img.shields.io/badge/Frontend-React-61DAFB?style=for-the-badge&logo=react)  
+![Database MongoDB](https://img.shields.io/badge/Database-MongoDB-green?style=for-the-badge&logo=mongodb)  
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/ayaank077s-projects/v0-figma-to-html-code)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/lEB2gD14i9S)
+**GamePredict** is an AI/ML-powered web application that predicts the outcomes of NBA games.  
+The platform lets users explore upcoming matchups, view team and player stats, and see predicted results with a clean, interactive interface.  
 
-## Overview
+🔗 **Live Site:** [GamePredict on Vercel](https://vercel.com/ayaank077s-projects/v0-figma-to-html-code)
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+---
 
-## Deployment
+## Features
 
-Your project is live at:
+- **AI-powered predictions** for NBA games  
+- **Interactive UI** with pages for home, matches, stats, and settings  
+- **Team and player statistics** visualization  
+- **Modern full-stack setup** with responsive frontend and scalable backend  
 
-**[https://vercel.com/ayaank077s-projects/v0-figma-to-html-code](https://vercel.com/ayaank077s-projects/v0-figma-to-html-code)**
+---
 
-## Build your app
+## Tech Stack
 
-Continue building your app on:
+- **Frontend:** React (JavaScript), Vite, Tailwind CSS  
+- **Backend:** FastAPI (Python)  
+- **Database:** MongoDB  
+- **Hosting:** Vercel (frontend) & backend API endpoints  
 
-**[https://v0.dev/chat/projects/lEB2gD14i9S](https://v0.dev/chat/projects/lEB2gD14i9S)**
+---
 
-## How It Works
+## Pages
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
+- `index.html` → Landing page  
+- `home.jsx` → Homepage with key games and predictions  
+- `match.jsx` → Match details and head-to-head predictions  
+- `stats.jsx` → Team and player stats visualization  
+- `settings.jsx` → User settings and preferences  
 
-4. Vercel deploys the latest version from this repository
+---
+
+## Getting Started
+
+Clone and run locally:
+
+```bash
+# Clone repo
+git clone https://github.com/ayaank077/GamePredict.git
+
+# Navigate into folder
+cd GamePredict
+
+# Install dependencies
+npm install   # For frontend
+pip install -r requirements.txt   # For backend
+
+# Run frontend
+npm run dev
+
+# Run backend
+uvicorn main:app --reload
